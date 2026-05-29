@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="100%" height="100%">
+  <!-- Definitions for gradients and drop shadows -->
+  <defs>
+    <!-- Soft glow filter -->
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00AEEF" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Group containing Logo Icon -->
+  <g transform="translate(10, 10)">
+    <!-- Elegant Ribbon Shape styled with Somali Blue -->
+    <!-- Ribbon Loop Background fold -->
+    <path d="M40,55 C30,35 45,15 60,15 C75,15 90,35 80,55 C70,75 40,95 40,95 C40,95 10,75 0,55 C0,45 15,35 25,35" 
+          fill="none" 
+          stroke="#0080B3" 
+          stroke-width="12" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          opacity="0.2"/>
+          
+    <!-- Main Ribbon Stroke -->
+    <!-- This creates a graceful ribbon loop -->
+    <path d="M 22,90 C 10,65 25,25 50,25 C 75,25 90,65 78,90 Z" 
+          fill="none" 
+          stroke="#00AEEF" 
+          stroke-width="12" 
+          stroke-linecap="round" 
+          filter="url(#softGlow)"/>
+    
+    <!-- Ribbon Tails crossing in the front -->
+    <path d="M 32,80 L 15,100" fill="none" stroke="#00AEEF" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 68,80 L 85,100" fill="none" stroke="#00AEEF" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- Somali Star: A beautiful white 5-pointed symbol of hope inside the loop -->
+    <polygon points="50,42 53,51 62,51 55,57 58,66 50,60 42,66 45,57 38,51 47,51" 
+             fill="#FFFFFF" 
+             stroke="#00AEEF" 
+             stroke-width="1" />
+  </g>
+
+  <!-- Typography Logotype (Right-Hand Side) -->
+  <g transform="translate(115, 0)">
+    <!-- First Line: Somali Cancer -->
+    <text x="0" y="52" 
+          font-family="system-ui, -apple-system, sans-serif" 
+          font-size="34" 
+          font-weight="800" 
+          fill="#313F47" 
+          letter-spacing="-0.5">
+          Somali <tspan fill="#00AEEF">Cancer</tspan>
+    </text>
+    
+    <!-- Second Line: Foundation -->
+    <text x="0" y="88" 
+          font-family="system-ui, -apple-system, sans-serif" 
+          font-size="24" 
+          font-weight="500" 
+          fill="#5A6D77" 
+          letter-spacing="5">
+          FOUNDATION
+    </text>
+
+    <!-- Support Ribbon subtitle in Somali -->
+    <text x="0" y="108" 
+          font-family="system-ui, -apple-system, sans-serif" 
+          font-size="12" 
+          font-weight="400" 
+          fill="#00AEEF" 
+          letter-spacing="0.5">
+          Ururka Kansarka Soomaaliyeed
+    </text>
+  </g>
+</svg>

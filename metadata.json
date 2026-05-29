@@ -1,0 +1,6 @@
+{
+  "name": "Somali Cancer Foundation",
+  "description": "The official website for the Somali Cancer Foundation (SCF), raising awareness, supporting patients, and delivering hope across Somalia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
